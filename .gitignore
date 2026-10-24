@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts (the exe is published via GitHub Releases)
+build/
+dist/
+*.spec
+
+# Runtime files
+pet.pid
+*.log
+*.tmp
+
+# User settings/state written by the app live in %USERPROFILE%\.claude-pet\ (outside the repo),
+# but just in case someone runs with a local copy:
+settings.json
+pet-state.json
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

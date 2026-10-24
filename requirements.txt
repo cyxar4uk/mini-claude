@@ -1,0 +1,8 @@
+# Core (needed for the tray icon and screenshots)
+Pillow>=10.0
+
+# Optional: "speak aloud" (Windows SAPI voice). Without it the setting is simply a no-op.
+pywin32>=306
+
+# Only needed to build the exe (see build.bat)
+# pyinstaller>=6.0
